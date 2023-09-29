@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&display=swap');
+html{
+    font-family: Poppins;
+}
+
+h1, .strong{
+    text-align: center;
+}
+.strong{
+    line-height: 20px;
+}
+.color{
+    color: rgb(79, 139, 223);
+}
+
+.currency {
+    background-color: rgb(81, 121, 134);
+    width: 370px;
+    border: 0px;
+    padding: 15px;
+    margin: 1px;
+    border-radius: 1em;
+}
+.analysis {
+    background-color: rgb(81, 121, 134);
+    width: 370px;
+    border: 0px;
+    padding: 15px;
+    margin: 1px;
+    border-radius: 1em;
+}
+.data {
+    background-color: rgb(81, 121, 134);
+    width: 370px;
+    border: 0px;
+    padding: 15px;
+    margin: 1px;
+    border-radius: 1em;
+  }
+  .box {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px 2em;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+  }
+  
+  .box :first-child {
+      align-self: center;
+  }
+  button{
+    display: inline-block;
+    background-color: rgb(49, 125, 240);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5em;
+  }
+  img{
+    border-radius: 1em;
+    width: 380px;
+    position: relative;
+    top: 0;
+  }
+  
